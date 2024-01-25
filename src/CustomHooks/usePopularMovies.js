@@ -3,7 +3,7 @@ import { API_OPTIONS } from "../utils/constants";
 import { addPopularMovies } from "../utils/movieSlice";
 import { useEffect } from "react";
 
-const usePopularMovies = () =>{
+const usePopularMovies = async () =>{
     const dispatch = useDispatch()
 
   const getPopularMovie = async () => {

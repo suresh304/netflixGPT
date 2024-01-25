@@ -83,12 +83,15 @@ const Login = () => {
         });
     }
   };
+  
   return (
-    <div className="">
+    
+    <div className="bg-[url('https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg')]">
+    
       <Header />
-      <div className="absolute">
-        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg" />
-      </div>
+      {/* <div className="">
+        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg" className="bg-cover w-[100%] h-[100%]"/>
+      </div> */}
       <form
         onSubmit={(e) => e.preventDefault()}
         className="absolute p-12 bg-black w-1/5 mx-auto  right-0 left-0 my-36 text-white bg-opacity-80"

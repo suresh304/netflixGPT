@@ -9,3 +9,5 @@ export const API_OPTIONS = {
       Authorization: 'bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYWU1MTkzZmU0Yjk4YmM0NDhjZGQwMWQzMzYyNDc2NiIsInN1YiI6IjY1YWU0YTZjODQ4ZWI5MDEwYTk5Yjc0MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.k3eyXCsYAmqUgK9QoYTE-0-PkrHPysOwlyzrGMTaKBo'}};
 
 export const POSTER_PATH = "https://image.tmdb.org/t/p/original/"
+
+export const OPENAI_KEY = "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"

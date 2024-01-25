@@ -8,8 +8,8 @@ export const Seconderycontainer = () => {
   
   return (
     <div>
-      <MoviesList title={"Now playing"} movies={movies}/>
-       <MoviesList title={"Popular"} movies={pmovies}/>
+     { movies&&<MoviesList title={"Now playing"} movies={movies}/>}
+      { movies&&<MoviesList title={"Popular"} movies={pmovies}/>}
       {/* <MoviesList title={"Recently Added"} movies={movies?.nowPlayingMovies}/>
       <MoviesList title={"Upcoming"} movies={movies?.nowPlayingMovies}/>
       <MoviesList title={"Now playing"} movies={movies?.nowPlayingMovies}/>  */}
