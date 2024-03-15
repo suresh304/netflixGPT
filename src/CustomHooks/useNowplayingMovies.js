@@ -18,8 +18,9 @@ const useNowPlayingMovies = async ()=>{
   };
 
   useEffect(() => {
+    console.log("useNowPlaying movies")
     getNowPlayingMovie();
 
-  }, []);
+  });
 }
 export default useNowPlayingMovies
